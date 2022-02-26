@@ -1,0 +1,11 @@
+---
+- hosts: trpl_staging
+  roles:
+    - role: gantsign.oh-my-zsh
+      users:
+        - username: trpl
+        - oh_my_zsh:
+        - theme: agnoster
+        - plugins:
+          - git
+          - docker
