@@ -1,5 +1,5 @@
 ---
-- hosts: trpl_staging
+- hosts: all 
   roles:
     - role: gantsign.oh-my-zsh
       users:
